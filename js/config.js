@@ -1,4 +1,4 @@
-boomerang.factory('Config',function(){
+boomerang.factory('Config', function () {
     return {
         //modify these
         'name'          : 'GTUG Lake Constance',
@@ -13,5 +13,5 @@ boomerang.factory('Config',function(){
                 url : 'https://plus.google.com/102863795915305230399'
             }
         }
-    }
+    };
 });
