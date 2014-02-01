@@ -1,0 +1,8 @@
+.git/**
+.idea/**
+*.un~
+*.iml
+sync.sh
+s3-excludes
+README
+
