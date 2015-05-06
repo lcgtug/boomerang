@@ -3,6 +3,8 @@
 *.un~
 *.iml
 sync.sh
-s3-excludes
+sync-excludes
+node_modules/**
+test/**
 README
 
