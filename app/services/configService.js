@@ -9,6 +9,7 @@ angular.module('gdgXBoomerang')
         'domain'        : 'http://www.gdg-bodensee.de',
         'twitter'       : 'lcgtug',
         'facebook'      : '',
+        'youtube'       : '',
         'meetup'        : 'GDG-Bodensee',
         // Change to 'EEEE, MMMM d, y - H:mm' for 24 hour time format.
         'dateFormat'    : 'EEEE, MMMM d, y - H:mm',
@@ -19,7 +20,18 @@ angular.module('gdgXBoomerang')
                 text : 'Join',
                 url : 'https://plus.google.com/102863795915305230399'
             }
-        }
+        },
+        'activities': {
+            techTalks: true,
+            codeLabs: true,
+            hackathons: true,
+            devFests: true,
+            appClinics: true,
+            panels: true,
+            designSprints: true,
+            roundTables: true
+        },
+        'HUB_IP': 'https://hub.gdgx.io'
         // To update the snippet which is used for sharing, see the TODO in the index.html.
     };
 });
