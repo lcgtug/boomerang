@@ -23,12 +23,12 @@ angular.module('gdgXBoomerang')
         },
         'activities': {
             techTalks: true,
-            codeLabs: true,
+            codeLabs: false,
             hackathons: true,
             devFests: true,
-            appClinics: true,
-            panels: true,
-            designSprints: true,
+            appClinics: false,
+            panels: false,
+            designSprints: false,
             roundTables: true
         },
         'HUB_IP': 'https://hub.gdgx.io'
